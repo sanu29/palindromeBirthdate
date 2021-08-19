@@ -1,0 +1,81 @@
+.header{
+    display: block;
+    margin-top: 0px;
+    height: 5REM;
+    font-size: 2rem;
+    position: relative;
+    text-align: center;
+    font-family: 'Nosifer', cursive;
+    background-color: #003566;
+    margin-bottom: 2rem;
+    color: #ffd60a;
+}
+
+.dateinput{
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    border: #001d3d solid 1px;
+    color: #001d3d;
+    width: 80%;
+}
+.output{
+    margin-top: 3rem;
+    color: #001d3d;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.button{
+    background-color: #003566 ;
+    color:#ffd60a ;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5rem;
+}
+
+
+.button1{
+
+    color:#003566 ;
+    padding: 0.2em;
+   
+}
+.footer{
+    margin-top: 2rem;
+    text-align: center;
+    position: absolute;
+    bottom: 1rem;
+    align-items: center;
+    text-justify: center;
+    text-align: center;
+   
+}
+
+body{
+    padding: 0;
+    margin: 0px;;
+}
+.head{
+    position: relative;
+    top:1rem;
+}
+.inline{
+    display:inline;
+    margin-top: 4rem;
+    }
+label{
+    font-size: large;
+    color: #001d3d;
+}
+    .main {
+
+        margin: auto;
+        padding: 1rem;
+        max-width: var(--width-break);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+       
+    }
