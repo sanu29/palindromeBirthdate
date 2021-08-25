@@ -172,6 +172,7 @@ for(var i=0;i<res1.length;i++){
     {
         output.innerHTML = "Yayy!!!! This Date is a Palindrome 😊 ❤"
         output.style.color = "#001d3d";
+        break;
     }
     else{
         output.innerHTML= `It is not a Plalindrome 😔 . Next Palindrome date is ${nextdate.day}-${nextdate.month}-${nextdate.year} You missed it by ${ctr} days 🙁.` ;
