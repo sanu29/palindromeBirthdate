@@ -132,8 +132,8 @@ function getNextPalindromeDate(date) {
   
     while (1) {
       ctr++;
-      var dateStr = dateToString(nextDate);
-      var resultList = checkPalindrome(dateStr);
+    
+      var resultList = checkPalindrome(nextDate);
   
       for (let i = 0; i < resultList.length; i++) {
         if (resultList[i]==true) {
